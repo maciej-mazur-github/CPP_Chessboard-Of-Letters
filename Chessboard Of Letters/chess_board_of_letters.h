@@ -4,12 +4,12 @@ using namespace std;
 
 class ChessBoardOfLetters
 {
-	char** chessBoard;
-	char** fields;
-	char** figures;
-	char** chessBoardCreator();
-	char** figureCreator();
-	char** fieldCreator();
+	char** chessBoardPtr;
+	char** fieldsPtr;
+	char** figuresPtr;
+	void chessBoardCreator();
+	void figureCreator();
+	void fieldCreator();
 	void listFieldsAndFigures();
 public:
 	ChessBoardOfLetters();
