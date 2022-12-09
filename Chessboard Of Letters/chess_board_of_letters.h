@@ -15,6 +15,6 @@ public:
 	ChessBoardOfLetters();
 	void insertFigures();
 	void printChessBoard();
-	~ChessBoardOfLetters();
+	//~ChessBoardOfLetters();
 };
 
