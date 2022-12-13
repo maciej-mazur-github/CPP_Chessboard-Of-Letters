@@ -8,5 +8,6 @@ int main()
 {	
 	ChessBoardOfLetters chessBoard;
 	chessBoard.printChessBoard();
+	chessBoard.insertFigures();
 }
 
